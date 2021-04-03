@@ -1,0 +1,12 @@
+.sidebar {
+  /* this command set the flexible length on flexible items. default value : 0-1 */
+  flex: 0.2;
+}
+.sidebar >hr
+{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
